@@ -1,8 +1,8 @@
-function dynamicArray(n, queries) {
-  let lastAnswer = 0;
-  let arr = [];
-  for (let i = 0; i < n; i++){
-    arr.push([]);
-  }
-  let idx = ()
+function dynamicArray(arr) {
+  arr.push(5);
+  console.log(arr);
+  arr.unshift(15);
+  return arr;
 }
+const arr = [1];
+dynamicArray(arr);

@@ -8,6 +8,13 @@ function bubbleSort(arr) {
   }  
   return arr;
 }
+async function exceptionToReturn() {
+  try {
+    const res = await fetch("https://www.google.com");
+  } catch (error) {
+    console.error("Error: ", error);
+  }
+}
 let arr = [2, 1, 0, 9, 7, 3, 4];
 const result = bubbleSort(arr);
 console.log(result);
